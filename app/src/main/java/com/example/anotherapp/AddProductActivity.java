@@ -44,6 +44,7 @@ public class AddProductActivity extends AppCompatActivity {
                 String Name = EditName.getText().toString();
                 String price = EditPrice.getText().toString();
                 if(Name == ""){
+                    //Я пытался так, но у меня что-то не работает
                     ConstraintLayout.LayoutParams alertNameLayoutParams = new ConstraintLayout.LayoutParams
                             (ConstraintLayout.LayoutParams.WRAP_CONTENT, ConstraintLayout.LayoutParams.WRAP_CONTENT);
                     alertNameTextView.setText("Вы не ввели имя");
@@ -54,7 +55,6 @@ public class AddProductActivity extends AppCompatActivity {
                     recreate();
                 }
                 if(price == ""){
-
                 }
             }
         });
