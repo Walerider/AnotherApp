@@ -10,10 +10,27 @@ import android.os.SystemClock;
 import android.view.ViewPropertyAnimator;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    /*
+    *
+    *
+    *
+    *
+    *
+    * Эта активити
+    * для начальной анимации
+    * лучше не редачить
+    *
+    *
+    *
+    *
+    *
+    *
+    * */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -4,7 +4,7 @@
     <item
         android:title="Home"
         android:icon="@drawable/ic_home"
-        android:id="@+id/firstMainFrag"
+        android:id="@+id/firstMainFragment"
         android:checked="true"/>
     <item
         android:title="profile"
